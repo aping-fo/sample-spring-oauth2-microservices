@@ -5,9 +5,9 @@ spring:
   application:
     name: auth-server
   datasource:
-    url: jdbc:mysql://192.168.99.100:33306/oauth2?useSSL=false
-    username: oauth2
-    password: oauth2
+    url: jdbc:mysql://211.100.75.242:3306/audio
+    username: root
+    password: 123456
     driver-class-name: com.mysql.jdbc.Driver
     schema: classpath:/script/schema.sql
     data: classpath:/script/data.sql

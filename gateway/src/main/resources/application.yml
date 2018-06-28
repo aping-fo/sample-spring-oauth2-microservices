@@ -4,10 +4,14 @@ server:
 spring:  
   application:
     name: gateway-server
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
   datasource:
-    url: jdbc:mysql://192.168.99.100:33306/default?useSSL=false
-    username: default
-    password: default
+    url: jdbc:mysql://211.100.75.242:3306/audio
+    username: root
+    password: 123456
 
 logging:
   level:

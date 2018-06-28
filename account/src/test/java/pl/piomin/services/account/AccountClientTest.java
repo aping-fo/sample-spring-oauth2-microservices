@@ -12,7 +12,8 @@ import pl.piomin.services.account.model.Account;
 
 public class AccountClientTest {
 
-	@Test
+//	@Test
+	//  curl account-service:secret@localhost:9999/oauth/token -d grant_type=password -d username=piomin -d password=piot123
 	public void testClient() {
         ResourceOwnerPasswordResourceDetails resourceDetails = new ResourceOwnerPasswordResourceDetails();
         resourceDetails.setUsername("piomin");
